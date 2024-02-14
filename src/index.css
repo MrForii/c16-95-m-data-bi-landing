@@ -1,3 +1,65 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon:nth-child(5n+1),
+.icon:nth-child(5n+2),
+.icon:nth-child(5n+3),
+.icon:nth-child(5n+4),
+.icon:nth-child(5n+5) {
+    width: 20%; /* Para que haya 4 iconos en la segunda fila */
+    margin-bottom: 48px;
+}
+
+.icon:nth-child(5n+6),
+.icon:nth-child(5n+7),
+.icon:nth-child(5n+8),
+.icon:nth-child(5n+9) {
+    width: 25%; /* Para que haya 3 iconos en la tercera fila */
+}
+
+.icon:nth-child(5n+10),
+.icon:nth-child(5n+11),
+.icon:nth-child(5n+12) {
+    width: 33%;
+}
+
+@media (max-width: 768px) {
+    .icon:nth-child(5n+1),
+    .icon:nth-child(5n+2),
+    .icon:nth-child(5n+3),
+    .icon:nth-child(5n+4),
+    .icon:nth-child(5n+5),
+    .icon:nth-child(5n+6),
+    .icon:nth-child(5n+7),
+    .icon:nth-child(5n+8),
+    .icon:nth-child(5n+9),
+    .icon:nth-child(5n+10),
+    .icon:nth-child(5n+11),
+    .icon:nth-child(5n+12) {
+        width: 25%;
+    }
+}
+
+.container-swipper {
+    height: fit-content;
+    display: flex;
+    gap: 25px;
+}
+
+.container-swipper .swipper-content {
+    overflow-x: hidden;
+    margin-top: 25px;
+    padding: 0 2rem;
+}

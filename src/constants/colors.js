@@ -1,0 +1,5 @@
+export const primaryColor = '#F8D57E'
+export const secondaryColor = '#E2772F'
+export const brownColor = '#88553A'
+export const brownColor2 = '#ECCB6E'
+export const textColor = '#2D2D2D'
