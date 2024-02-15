@@ -16,7 +16,7 @@ const ButtonSecondary = ({ link }) => {
             }}
         >
             <img src={IconPlay} alt="Github Icon" className="h-5 w-5"/>
-            <p className="font-medium" target="_blank" 
+            <p className="font-semibold text-lg" target="_blank" 
                 style={{
                     color: secondaryColor
                 }}

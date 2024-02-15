@@ -13,7 +13,7 @@ const ButtonPrimary = ({ link }) => {
             }}
         >
             <img src={Github} alt="Github Icon" className="h-6 w-6"/>
-            <p className="font-medium" target="_blank" >Repositorio</p>
+            <p className="font-semibold text-lg" target="_blank" >Repositorio</p>
         </a>
     )
 
