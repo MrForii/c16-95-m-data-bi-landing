@@ -7,6 +7,7 @@ import ImageJulio from "../../assets/profile-imgs/djulio.jpg";
 import ImageRodrigo from "../../assets/profile-imgs/vrodri.jpg";
 import ImageAdri from "../../assets/profile-imgs/madri.jpg";
 import ImageLeopoldo from "../../assets/profile-imgs/fleo.jpg";
+import ImageCarlos from "../../assets/profile-imgs/lcarlos.jpg"
 
 
 // Import Slider
@@ -244,7 +245,7 @@ const memberTeam = [
         role: [
             "Data Analyst",
         ],
-        img: "https://randomuser.me/api/portraits/men/1.jpg",
+        img: ImageCarlos,
         bio: "Apasionado por la innovación y la investigación. Futuro ingeniero industrial. Interés en análisis de datos, idiomas y mecánica pesada.",
         links: {
             gmail: "mailto:carlosloayza1480@gmail.com",
