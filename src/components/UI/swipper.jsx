@@ -5,6 +5,7 @@ import ImageCeleste from "../../assets/profile-imgs/mcele.png";
 import ImageEstefania from "../../assets/profile-imgs/veste.jpg";
 import ImageJulio from "../../assets/profile-imgs/djulio.jpg";
 import ImageRodrigo from "../../assets/profile-imgs/vrodri.jpg";
+import ImageAdri from "../../assets/profile-imgs/madri.jpg";
 
 
 // Import Slider
@@ -84,7 +85,7 @@ const memberTeam = [
 
         ],
         img: ImageFrank,
-        bio: "Experto en Python, SQL y Power BI. Analítico, resolutivo; extraigo información significativa de grandes conjuntos de datos.",
+        bio: "Especializado en Python, SQL y Power BI. Analítico, resolutivo; extraigo información significativa de grandes conjuntos de datos.",
         links: {
             gmail: "mailto:francogonzaloarce@gmail.com",
             linkedin: "https://www.linkedin.com/in/franco-arce-37a83a220/",
@@ -112,7 +113,7 @@ const memberTeam = [
             "Data Engineer",
         ],
         img: ImageMIbarra,
-        bio: "Experto en Python, SQL y Power BI. Formación en Data Science, Machine Learning y Data Engineering en The Bridge.",
+        bio: "Especializado en Python, SQL y Power BI. Formación en Data Science, Machine Learning y Data Engineering en The Bridge.",
         links: {
             gmail: "mailto:matiasezibarra@gmail.com",
             linkedin: "https://www.linkedin.com/in/matias-ibarra92/",
@@ -125,7 +126,7 @@ const memberTeam = [
             "Data Engineer",
             "Data Scientist",
         ],
-        img: "https://randomuser.me/api/portraits/men/1.jpg",
+        img: ImageAdri,
         bio: "Exploradora de desafíos en ciencia de datos. Especializada en probabilidad, estadística y análisis profundo de datos para mejoras.",
         links: {
             gmail: "mailto:adrikarol1096@gmail.com",
