@@ -20,15 +20,15 @@ const CardTeam = ({ name, role, img }) => {
                 </div>
 
                 <div className="flex items-center justify-around gap-5 w-full">
-                    <a href="#" className="text-center text-orange-600 text-sm w-auto font-bold">
+                    <a href="mailto:" className="text-center text-orange-600 text-sm w-auto font-bold">
                         Gmail
                     </a>
 
-                    <a href="#" className="text-center text-orange-600 text-sm w-auto font-bold">
+                    <a href="www.linkedin.com" className="text-center text-orange-600 text-sm w-auto font-bold">
                         LinkedIn
                     </a>
 
-                    <a href="#" className="text-center text-orange-600 text-sm w-auto font-bold">
+                    <a href="www.github.com" className="text-center text-orange-600 text-sm w-auto font-bold">
                         Github
                     </a>
                     

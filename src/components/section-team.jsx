@@ -1,5 +1,4 @@
 import { brownColor, primaryColor } from "../constants/colors"
-import CardTeam from "./UI/card-team"
 import Slides from "./UI/swipper"
 
 
