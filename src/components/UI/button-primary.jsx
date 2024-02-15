@@ -4,7 +4,7 @@ import Github from "../../assets/imgs/github.svg"
 const ButtonPrimary = ({ link }) => {
 
     return (
-        <a href={link} 
+        <a href={link} target="_blank" rel="noreferrer"
             className="flex py-3 px-[40px] items-center justify-center gap-3"
             style={{
                 backgroundColor: secondaryColor,
@@ -13,7 +13,7 @@ const ButtonPrimary = ({ link }) => {
             }}
         >
             <img src={Github} alt="Github Icon" className="h-6 w-6"/>
-            <p className="font-semibold text-lg" target="_blank" >Repositorio</p>
+            <p className="font-semibold text-lg"  >Repositorio</p>
         </a>
     )
 

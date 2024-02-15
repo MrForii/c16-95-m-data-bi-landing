@@ -6,6 +6,7 @@ import ImageEstefania from "../../assets/profile-imgs/veste.jpg";
 import ImageJulio from "../../assets/profile-imgs/djulio.jpg";
 import ImageRodrigo from "../../assets/profile-imgs/vrodri.jpg";
 import ImageAdri from "../../assets/profile-imgs/madri.jpg";
+import ImageLeopoldo from "../../assets/profile-imgs/fleo.jpg";
 
 
 // Import Slider
@@ -179,7 +180,7 @@ const memberTeam = [
             "Data Engineer",
             "Data Scientist",
         ],
-        img: "https://randomuser.me/api/portraits/men/1.jpg",
+        img: ImageLeopoldo,
         bio: "Cientifico de datos con visión de negocio. Adaptabilidad, mejora continua y resultados en entornos colaborativos.",
         links: {
             gmail: "mailto:leopoldofloresc@gmail.com",

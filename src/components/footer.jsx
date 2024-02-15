@@ -17,16 +17,16 @@ const Footer = () => {
             </div>
 
             <div className="flex gap-3">
-                <a href="https://github.com/DataChefNoCountry" target="_blank" rel="noreferrer">
+                <a href="https://www.youtube.com/channel/UCLeNKUkcsuu8UpcueDRYC7Q" target="_blank" rel="noreferrer">
                     <img src={Youtube} alt="" />
                 </a>
-                <a href="https://github.com/DataChefNoCountry" target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/nocountry.tech/" target="_blank" rel="noreferrer">
                     <img src={Instagram} alt="" />
                 </a>
-                <a href="https://github.com/DataChefNoCountry" target="_blank" rel="noreferrer">
+                <a href="https://github.com/No-Country" target="_blank" rel="noreferrer">
                     <img src={Github} alt="" />
                 </a>
-                <a href="https://github.com/DataChefNoCountry" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/company/nocountrytalent/?originalSubdomain=ar" target="_blank" rel="noreferrer">
                     <img src={Linkedin} alt="" />
                 </a>
             </div>
