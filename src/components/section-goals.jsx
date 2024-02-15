@@ -24,7 +24,7 @@ const cards = [
         icon: icon3,
         color: "#F8D57E33",
         title: "Análisis de ventas",
-        text: "Tendrás la capacidad de analizar las ventas de tu restaurante, detectar tendencias, productos más vendidos y horarios más rentables",
+        text: "Tendrás la capacidad de analizar las ventas de tu restaurante y detectar tendencias",
     },
     {
         icon: icon4,

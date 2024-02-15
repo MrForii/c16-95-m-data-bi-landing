@@ -1,3 +1,13 @@
+// Import Images
+import ImageMIbarra from "../../assets/profile-imgs/miba.jpg";
+import ImageFrank from "../../assets/profile-imgs/afrank.jpg";
+import ImageCeleste from "../../assets/profile-imgs/mcele.png";
+import ImageEstefania from "../../assets/profile-imgs/veste.jpg";
+import ImageJulio from "../../assets/profile-imgs/djulio.jpg";
+import ImageRodrigo from "../../assets/profile-imgs/vrodri.jpg";
+
+
+// Import Slider
 
 import CardTeam from "./card-team";
 import React from "react";
@@ -67,78 +77,176 @@ export default Slides
 
 const memberTeam = [
     {
-        name: "Jorge Vega",
+        name: "Franco Arce",
         role: [
-            "Desarrollador",
-            "Diseñador",
+            "Product Manager",
+            "Data Analyst",
 
         ],
-        img: "https://randomuser.me/api/portraits/men/1.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        img: ImageFrank,
+        bio: "Experto en Python, SQL y Power BI. Analítico, resolutivo; extraigo información significativa de grandes conjuntos de datos.",
         links: {
-            gmail: "mailto:",
-            linkedin: "https://linkedin.com/",
-            github: "https://github.com/",
+            gmail: "mailto:francogonzaloarce@gmail.com",
+            linkedin: "https://www.linkedin.com/in/franco-arce-37a83a220/",
+            github: "https://github.com/Franco-Arce",
         }
     },
     {
-        name: "Pepe",
+        name: "Rodrigo Valdez",
         role: [
-            "Desarrollador",
-            "Diseñador",
-
+            "Product Manager",
+            "Data Analyst",
         ],
-        img: "https://randomuser.me/api/portraits/men/1.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        img: ImageRodrigo,
+        bio: "Apasionado por datos, impulso decisiones estratégicas. Dominio en Excel, SQL, Python, Numpy, Seaborn, Mathplotlib, Power BI.",
         links: {
-            gmail: "mailto:",
-            linkedin: "https://linkedin.com/",
-            github: "https://github.com/",
+            gmail: "mailto:fori2001@hotmail.com",
+            linkedin: "https://www.linkedin.com/in/rodrigo-valdez7/",
+            github: "https://github.com/MrForii",
         }
     },
     {
-        name: "JoseLui",
+        name: "Matias Ibarra",
         role: [
-            "Desarrollador",
-            "Diseñador",
-
+            "Product Manager",
+            "Data Engineer",
         ],
-        img: "https://randomuser.me/api/portraits/men/1.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        img: ImageMIbarra,
+        bio: "Experto en Python, SQL y Power BI. Formación en Data Science, Machine Learning y Data Engineering en The Bridge.",
         links: {
-            gmail: "mailto:",
-            linkedin: "https://linkedin.com/",
-            github: "https://github.com/",
+            gmail: "mailto:matiasezibarra@gmail.com",
+            linkedin: "https://www.linkedin.com/in/matias-ibarra92/",
+            github: "https://github.com/Matias-Ibarra",
         }
     },
     {
-        name: "Manolo",
+        name: "Adriana Muñoz",
         role: [
-            "Desarrollador",
-            "Diseñador",
-
+            "Data Engineer",
+            "Data Scientist",
         ],
         img: "https://randomuser.me/api/portraits/men/1.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        bio: "Exploradora de desafíos en ciencia de datos. Especializada en probabilidad, estadística y análisis profundo de datos para mejoras.",
         links: {
-            gmail: "mailto:",
-            linkedin: "https://linkedin.com/",
-            github: "https://github.com/",
+            gmail: "mailto:adrikarol1096@gmail.com",
+            linkedin: "https://www.linkedin.com/in/adrianamuñozr/",
+            github: "https://github.com/Adrikarol",
         }
     },
     {
-        name: "Jorgito",
+        name: "Maria Celeste Coronel",
         role: [
-            "Desarrollador",
-            "Diseñador",
-
+            "Data Analyst",
+        ],
+        img: ImageCeleste,
+        bio: "Aprendizaje continuo, enseñanza, tecnología. Amante de la evolución del campo de la ciencia de datos. Siempre hay más por aprender y compartir.",
+        links: {
+            gmail: "mailto:mcelestecrnl@gmail.com",
+            linkedin: "https://www.linkedin.com/in/maria-celeste-coronel-b93837249/",
+            github: "https://github.com/MCCoronel",
+        }
+    },
+    {
+        name: "Matias Ferreyra",
+        role: [
+            "Data Engineer",
         ],
         img: "https://randomuser.me/api/portraits/men/1.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        bio: "Adentrandome a la ingeniería de datos. Aplicación de conocimientos en análisis y gestión de datos para proyectos exitosos.",
         links: {
-            gmail: "mailto:",
-            linkedin: "https://linkedin.com/",
-            github: "https://github.com/",
+            gmail: "mailto:mferreyra82@gmail.com",
+            linkedin: "https://www.linkedin.com/in/matiasaferreyra/",
+            github: "https://github.com/mferreyra",
+        }
+    },
+    {
+        name: "Estefanía Vago",
+        role: [
+            "Data Analyst",
+        ],
+        img: ImageEstefania,
+        bio: "Ingeniera Industrial. En formación en Data Science, Data Analyst y Python. Apasionada por el aprendizaje y la mejora continua en el campo de la ciencia de datos.",
+        links: {
+            gmail: "mailto:ecvago@hotmail.com",
+            linkedin: "https://www.linkedin.com/in/estefania-vago1986/",
+            github: "https://github.com/Estefaniavago",
+        }
+    },
+    {
+        name: "Leopoldo Flores",
+        role: [
+            "Data Engineer",
+            "Data Scientist",
+        ],
+        img: "https://randomuser.me/api/portraits/men/1.jpg",
+        bio: "Cientifico de datos con visión de negocio. Adaptabilidad, mejora continua y resultados en entornos colaborativos.",
+        links: {
+            gmail: "mailto:leopoldofloresc@gmail.com",
+            linkedin: "https://www.linkedin.com/in/leopoldofloresc/",
+            github: "https://github.com/LeopoldoGitHub",
+        }
+    },
+    {
+        name: "Diego Gallegos",
+        role: [
+            "Data Scientist",
+        ],
+        img: "https://randomuser.me/api/portraits/men/1.jpg",
+        bio: "Estudiante en IPN, con experiencia en electrónica, aprendizaje automático, Python y SQL. Interés en computación cuántica, robótica y ética médica.",
+        links: {
+            gmail: "mailto:diegourielgallegosestudillo1@gmail.com",
+            linkedin: "https://www.linkedin.com/in/gallegos-estudillo-diego-uriel-5055302b1/",
+            github: "https://github.com/DiegoUriel1",
+        }
+    },
+    {
+        name: "Mariela Flores",
+        role: [
+            "Data Analyst",
+        ],
+        img: "https://randomuser.me/api/portraits/men/1.jpg",
+        bio: "Analista de datos en proyecto de telecomunicaciones. Experiencia en análisis y gestión de datos para soluciones en telecom",
+        links: {
+            gmail: "mailto:marielasirur@gmail.com",
+            linkedin: "https://www.linkedin.com/in/mariela-l-sirur-flores-64b75b42/",
+            github: "https://github.com/marielasirur",
+        }
+    },
+    {
+        name: "Rafael Gallegos",
+        role: [
+            "Data Engineer",
+        ],
+        img: "https://randomuser.me/api/portraits/men/1.jpg",
+        bio: "Estudiante UNAM en Administración Pública. Orientación a ingeniería de datos. Conocimientos en Excel, Power BI, Java y bases de datos.",
+        links: {
+            gmail: "mailto:gallegosestudilloangelrafael@gmail.com",
+            linkedin: "https://www.linkedin.com/in/angel-rafael-gallegos-estudillo-7314a2270/ ",
+            github: "https://github.com/Angeltusp",
+        }
+    },
+    {
+        name: "Julio Dip",
+        role: [
+            "Data Analyst",
+        ],
+        img: ImageJulio,
+        bio: "Colaborador entusiasta, comprometido con objetivos. Trabajo en equipo, dispuesto a aprender y emprender con la mejor predisposición.",
+        links: {
+            gmail: "mailto:jcdip2500@gmail.com",
+            linkedin: "https://www.linkedin.com/in/julio-dip-qa-data-bi-python-jr",
+        }
+    },
+    {
+        name: "Carlos Loayza",
+        role: [
+            "Data Analyst",
+        ],
+        img: "https://randomuser.me/api/portraits/men/1.jpg",
+        bio: "Apasionado por la innovación y la investigación. Futuro ingeniero industrial. Interés en análisis de datos, idiomas y mecánica pesada.",
+        links: {
+            gmail: "mailto:carlosloayza1480@gmail.com",
+            linkedin: "https://www.linkedin.com/in/carlos-loayza-8528551b8/",
         }
     },
 ]
