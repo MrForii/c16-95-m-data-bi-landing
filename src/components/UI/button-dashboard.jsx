@@ -1,7 +1,7 @@
 import { secondaryColor } from "../../constants/colors"
 
 
-const ButtonSecondary = ({ link, icon, text }) => {
+const ButtonDashboard = ({ link, icon, text }) => {
 
     return (
         <a href={link} target="blank" 
@@ -14,7 +14,7 @@ const ButtonSecondary = ({ link, icon, text }) => {
                 borderRadius: '10px',
             }}
         >
-            <img src={icon} alt="Github Icon" className="h-5 w-9"/>
+            <img src={icon} alt="Github Icon" className="h-7 w-7"/>
             <p className="font-semibold text-lg" 
                 style={{
                     color: secondaryColor
@@ -27,4 +27,4 @@ const ButtonSecondary = ({ link, icon, text }) => {
 
 }
 
-export default ButtonSecondary
+export default ButtonDashboard

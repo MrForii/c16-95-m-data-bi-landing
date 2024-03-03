@@ -163,19 +163,6 @@ const memberTeam = [
         }
     },
     {
-        name: "Estefanía Vago",
-        role: [
-            "Data Analyst",
-        ],
-        img: ImageEstefania,
-        bio: "Ingeniera Industrial. En formación en Data Science, Data Analyst y Python. Apasionada por el aprendizaje y la mejora continua en el campo de la ciencia de datos.",
-        links: {
-            gmail: "mailto:ecvago@hotmail.com",
-            linkedin: "https://www.linkedin.com/in/estefania-vago1986/",
-            github: "https://github.com/Estefaniavago",
-        }
-    },
-    {
         name: "Leopoldo Flores",
         role: [
             "Data Engineer",
@@ -200,19 +187,6 @@ const memberTeam = [
             gmail: "mailto:diegourielgallegosestudillo1@gmail.com",
             linkedin: "https://www.linkedin.com/in/gallegos-estudillo-diego-uriel-5055302b1/",
             github: "https://github.com/DiegoUriel1",
-        }
-    },
-    {
-        name: "Mariela Flores",
-        role: [
-            "Data Analyst",
-        ],
-        img: "https://randomuser.me/api/portraits/men/1.jpg",
-        bio: "Analista de datos en proyecto de telecomunicaciones. Experiencia en análisis y gestión de datos para soluciones en telecom",
-        links: {
-            gmail: "mailto:marielasirur@gmail.com",
-            linkedin: "https://www.linkedin.com/in/mariela-l-sirur-flores-64b75b42/",
-            github: "https://github.com/marielasirur",
         }
     },
     {

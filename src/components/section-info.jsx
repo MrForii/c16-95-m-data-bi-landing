@@ -19,14 +19,14 @@ const InfoSection = () => {
     const templateCols = width >= 1024 ? "40% 60%" : "1fr";
 
     return (
-        <div className='grid justify-between items-center lg:py-16 lg:px-40 md:px-24 md:py-22 sm:px-12 sm:py-24 xs:px-6 xs:py-2'
+        <div className='grid justify-between items-center lg:py-16 lg:px-40 md:px-24 md:py-22 sm:px-12 sm:py-24 xs:px-6 xs:py-12'
             style={{
                 backgroundColor: brownColor,
                 gridTemplateColumns: templateCols,
             }}
     >
         
-        <div className="flex flex-col items-center justify-center box-content flex-wrap px-12">
+        <div className="flex flex-col items-center justify-center box-content flex-wrap px-12 xs:hidden md:flex">
             <img src={InfoImage} alt="InfoImage" className="lg:w-[255px] md:w-[200px] sm:w-[30%]"/>
 
             <p className="text-white font-semibold text-xl text-center">
@@ -39,7 +39,7 @@ const InfoSection = () => {
             />
         </div>
 
-        <div className="w-full sm:mt-20 xs:mt-14">
+        <div className="w-full xs:mt-0 md:mt-10">
             <h2 className="font-bold text-5xl w-full text-center mb-7"
                 style={{
                     color: brownColor2,

@@ -4,7 +4,7 @@ import TechContents from "./UI/tech-content-5"
 const TechsSection = () => {
     return (
         <div 
-            className="w-full lg:py-20 lg:px-40 flex items-center flex-col md:px-24 sm:px-12 sm:py-16 xs:px-6 xs:py-16"
+            className="w-full lg:py-20 lg:px-40 flex items-center flex-col md:px-24 sm:px-12 sm:py-16 xs:px-6 xs:py-16 mb-0"
             style={{
                 backgroundColor: brownColor,
             }}

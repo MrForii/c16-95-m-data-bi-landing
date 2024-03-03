@@ -30,7 +30,7 @@ const CardTeam = ({ name, role, img, bio, links }) => {
                         {
                             links.gmail && 
                                 <a href={links.gmail} className="text-center text-orange-600 text-sm w-auto font-bold">
-                                    Gmail
+                                    Email
                                 </a>
                         }
                         {

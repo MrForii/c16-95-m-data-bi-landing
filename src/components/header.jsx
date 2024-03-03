@@ -2,6 +2,7 @@ import { primaryColor, brownColor, textColor } from "../constants/colors"
 import ButtonPrimary from "./UI/button-primary"
 import ButtonSecondary from "./UI/button-secondary"
 import ImgHeader from "../assets/imgs/img-header.png"
+import Streamlit from "../assets/imgs/streamlit.png"
 import { useState, useEffect } from "react"
 
 const Header = () => {
@@ -58,7 +59,7 @@ const Header = () => {
 
                 <div className="flex gap-4 lg:flex-row lg:w-full lg:justify-start mt-10 sm:flex-col xs:flex-col xs:w-[80%] xs:justify-center">
                     <ButtonPrimary link="https://github.com/No-Country/c16-95-m-data-bi" />
-                    <ButtonSecondary link="https://github.com/No-Country/c16-95-m-data-bi" />
+                    <ButtonSecondary link="https://github.com/No-Country/c16-95-m-data-bi" icon={Streamlit} text={"Streamlit"} />
                 </div>
                 
             </div>
