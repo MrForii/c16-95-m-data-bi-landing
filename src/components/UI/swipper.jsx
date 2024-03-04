@@ -2,12 +2,11 @@
 import ImageMIbarra from "../../assets/profile-imgs/miba.jpg";
 import ImageFrank from "../../assets/profile-imgs/afrank.jpg";
 import ImageCeleste from "../../assets/profile-imgs/mcele.png";
-import ImageEstefania from "../../assets/profile-imgs/veste.jpg";
+import ImageMFerreyra from "../../assets/profile-imgs/mferr.png";
 import ImageJulio from "../../assets/profile-imgs/djulio.jpg";
 import ImageRodrigo from "../../assets/profile-imgs/vrodri.jpg";
 import ImageAdri from "../../assets/profile-imgs/madri.jpg";
 import ImageLeopoldo from "../../assets/profile-imgs/fleo.jpg";
-import ImageCarlos from "../../assets/profile-imgs/lcarlos.jpg"
 
 
 // Import Slider
@@ -154,7 +153,7 @@ const memberTeam = [
         role: [
             "Data Engineer",
         ],
-        img: "https://randomuser.me/api/portraits/men/1.jpg",
+        img: ImageMFerreyra,
         bio: "Adentrandome a la ingeniería de datos. Aplicación de conocimientos en análisis y gestión de datos para proyectos exitosos.",
         links: {
             gmail: "mailto:mferreyra82@gmail.com",
@@ -177,32 +176,6 @@ const memberTeam = [
         }
     },
     {
-        name: "Diego Gallegos",
-        role: [
-            "Data Scientist",
-        ],
-        img: "https://randomuser.me/api/portraits/men/1.jpg",
-        bio: "Estudiante en IPN, con experiencia en electrónica, aprendizaje automático, Python y SQL. Interés en computación cuántica, robótica y ética médica.",
-        links: {
-            gmail: "mailto:diegourielgallegosestudillo1@gmail.com",
-            linkedin: "https://www.linkedin.com/in/gallegos-estudillo-diego-uriel-5055302b1/",
-            github: "https://github.com/DiegoUriel1",
-        }
-    },
-    {
-        name: "Rafael Gallegos",
-        role: [
-            "Data Engineer",
-        ],
-        img: "https://randomuser.me/api/portraits/men/1.jpg",
-        bio: "Estudiante UNAM en Administración Pública. Orientación a ingeniería de datos. Conocimientos en Excel, Power BI, Java y bases de datos.",
-        links: {
-            gmail: "mailto:gallegosestudilloangelrafael@gmail.com",
-            linkedin: "https://www.linkedin.com/in/angel-rafael-gallegos-estudillo-7314a2270/ ",
-            github: "https://github.com/Angeltusp",
-        }
-    },
-    {
         name: "Julio Dip",
         role: [
             "Data Analyst",
@@ -213,17 +186,5 @@ const memberTeam = [
             gmail: "mailto:jcdip2500@gmail.com",
             linkedin: "https://www.linkedin.com/in/julio-dip-qa-data-bi-python-jr",
         }
-    },
-    {
-        name: "Carlos Loayza",
-        role: [
-            "Data Analyst",
-        ],
-        img: ImageCarlos,
-        bio: "Apasionado por la innovación y la investigación. Futuro ingeniero industrial. Interés en análisis de datos, idiomas y mecánica pesada.",
-        links: {
-            gmail: "mailto:carlosloayza1480@gmail.com",
-            linkedin: "https://www.linkedin.com/in/carlos-loayza-8528551b8/",
-        }
-    },
+    }
 ]
