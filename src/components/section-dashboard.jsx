@@ -26,10 +26,10 @@ const DashboardSection = () => {
                 </h3>
             </div>
 
-            <iframe className="w-full xs:hidden sm:block sm:h-[400px] md:h-[450px] lg:h-[550px]" src='https://app.powerbi.com/view?r=eyJrIjoiYjdhODEwYTYtM2YxMS00YTQ5LTg1ZjMtNGM5MTA5YmEwM2Y5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9'></iframe>
+            <iframe className="w-full xs:hidden sm:block sm:h-[400px] md:h-[450px] lg:h-[550px]" src='https://app.powerbi.com/view?r=eyJrIjoiYmMxMWIwMWYtNDFjMy00NDIyLTg3ODQtMzM5MTJiZDk3M2VhIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9'></iframe>
 
             <div className="xs:block sm:hidden">
-                <ButtonDashboard link="https://app.powerbi.com/view?r=eyJrIjoiYjdhODEwYTYtM2YxMS00YTQ5LTg1ZjMtNGM5MTA5YmEwM2Y5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" icon={PowerBI} text="Ver Dashboard"/>
+                <ButtonDashboard link="https://app.powerbi.com/view?r=eyJrIjoiYmMxMWIwMWYtNDFjMy00NDIyLTg3ODQtMzM5MTJiZDk3M2VhIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" icon={PowerBI} text="Ver Dashboard"/>
             </div>
         </div>
     )
