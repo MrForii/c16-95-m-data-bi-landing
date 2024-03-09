@@ -29,7 +29,7 @@ const DashboardSection = () => {
             <iframe className="w-full xs:hidden sm:block sm:h-[400px] md:h-[450px] lg:h-[550px]" src='https://app.powerbi.com/view?r=eyJrIjoiYmMxMWIwMWYtNDFjMy00NDIyLTg3ODQtMzM5MTJiZDk3M2VhIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9'></iframe>
 
             <div className="xs:block sm:hidden">
-                <ButtonDashboard link="https://app.powerbi.com/view?r=eyJrIjoiYmMxMWIwMWYtNDFjMy00NDIyLTg3ODQtMzM5MTJiZDk3M2VhIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" icon={PowerBI} text="Ver Dashboard"/>
+                <ButtonDashboard link="https://c16-95-m-data-bi-cwwi88jhlw2ywgzaxznmjb.streamlit.app/" icon={PowerBI} text="Ver Dashboard"/>
             </div>
         </div>
     )

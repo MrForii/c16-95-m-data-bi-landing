@@ -59,7 +59,7 @@ const Header = () => {
 
                 <div className="flex gap-4 lg:flex-row lg:w-full lg:justify-start mt-10 sm:flex-col xs:flex-col xs:w-[80%] xs:justify-center">
                     <ButtonPrimary link="https://github.com/No-Country/c16-95-m-data-bi" />
-                    <ButtonSecondary link="https://github.com/No-Country/c16-95-m-data-bi" icon={Streamlit} text={"Streamlit"} />
+                    <ButtonSecondary link="https://c16-95-m-data-bi-cwwi88jhlw2ywgzaxznmjb.streamlit.app/" icon={Streamlit} text={"Streamlit"} />
                 </div>
                 
             </div>
